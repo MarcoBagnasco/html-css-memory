@@ -32,6 +32,9 @@ header h1{
 }
 
 /* CARD */
+.row-cards{
+    margin-bottom: 10px;
+}
 .card{
     float: left;
     position: relative;
@@ -57,7 +60,7 @@ header h1{
     width:100%;
     display: none;
 }
-.card > img + .name{
+.card > .name{
     display: none;
     position: relative;
     bottom: 5px;
@@ -76,11 +79,21 @@ header h1{
 }
 
 /* CARD HOVER */
-.card:hover span,
+.card:hover .name,
 .card:hover img{
 display: block;
 color: #e67919;
 }
 .card:hover .back-card{
+    display: none;
+}
+
+/* SELECTED CARD */
+.selected img,
+.selected .name{
+    display: block;
+    color: #e61986;
+}
+.selected .back-card{
     display: none;
 }
