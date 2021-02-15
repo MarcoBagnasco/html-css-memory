@@ -14,3 +14,12 @@ body{
     width: 800px;
     margin: 0 auto;
 }
+
+/* HEADER */
+header h1{
+    text-align: center;
+    font-size: 78px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1.2px 1.2px #666666;
+}
