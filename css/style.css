@@ -25,6 +25,7 @@ body{
 
 /* HEADER */
 header h1{
+    margin-top: 7px;
     margin-bottom: 25px;
     font-size: 86px;
     color: white;
@@ -36,11 +37,11 @@ header h1{
 .row-cards{
     margin-bottom: 10px;
 }
-.card{
+.row-cards .card{
     float: left;
     position: relative;
     width: 22.5%;
-    height: 206px;
+    height: 208px;
     margin: 1.5%;
     padding: 20px;
     background-color: white;
@@ -48,10 +49,10 @@ header h1{
     box-shadow: 1px 1px 5px  #666666;
     overflow: hidden;
 }
-.card:first-child{
+.row-cards .card:first-child{
     margin-left: 0;
 }
-.card:last-child{
+.row-cards .card:last-child{
     margin-right: 0;
 }
 
