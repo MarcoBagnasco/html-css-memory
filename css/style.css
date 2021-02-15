@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Nerko One', cursive;
+    text-align: center;
     background-color: #add8e6;
 }
 
@@ -24,7 +25,6 @@ body{
 /* HEADER */
 header h1{
     margin-bottom: 25px;
-    text-align: center;
     font-size: 86px;
     color: white;
     text-transform: uppercase;
@@ -42,7 +42,6 @@ header h1{
     height: 206px;
     margin: 1.5%;
     padding: 20px;
-    text-align: center;
     background-color: white;
     border-radius: 10px;
     box-shadow: 1px 1px 5px  #666666;
@@ -64,7 +63,7 @@ header h1{
     display: none;
     position: relative;
     bottom: 5px;
-    font-size: 32px;
+    font-size: 31px;
     color:#e61986;
     text-shadow: 1.4px 1.4px 1px #666666;
 }
@@ -92,7 +91,6 @@ color: #e67919;
 .selected img,
 .selected .name{
     display: block;
-    color: #e61986;
 }
 .selected .back-card{
     display: none;
